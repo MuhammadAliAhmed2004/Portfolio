@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div id="logo">
+      <p>Mohamed</p>
+    </div>
+
+    <!-- Desktop Navigation -->
+    <nav class="nav-desktop">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Mobile Toggle -->
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <!-- Mobile Navigation -->
+    <nav id="nav" class="nav-mobile">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <div id="hero_text">
+        <p>Hello, it's me <br><span id="my_name">Mohamed Ali</span> <br>And I'm a Web Developer</p>
+        <p>I build clean, responsive websites with HTML, CSS and a problem-solving mindset.</p>
+        <button>Contact me</button>
+      </div>
+      <div id="hero_img">
+        <img src="Img/home.jpg" alt="person">
+      </div>
+    </section>
+
+    <section class="section_break">
+      <h1>About me</h1>
+    </section>
+
+    <section id="about">
+      <div id="about_img">
+        <img src="Img/about.jpg" alt="About me picture">
+      </div>
+      <div id="about_text">
+        <h2>About me</h2>
+        <p>
+          I am Mohamed Ali, a passionate web Developer with a strong foundation in HTML and CSS, 
+          and a keen eye for crafting clean, responsive web interfaces. I excel at turning ideas 
+          into functional, user-friendly websites and thrive on solving critical problems with innovative, 
+          efficient solutions. My goal is to create digital experiences that not only look great 
+          but also perform seamlessly across all platforms.
+        </p>
+      </div>
+    </section>
+
+    <section class="section_break">
+      <h1>Service</h1>
+    </section>
+
+    <section id="service">
+      <div class="card">
+        <img src="Img/web.webp" alt="web">
+        <h1>Web Development</h1>
+        <p>Modelen websites</p>
+        <button>Contact</button>
+      </div>
+      <div class="card">
+        <img src="Img/design.webp" alt="design">
+        <h1>Graphic Design</h1>
+        <p>Modelen designes</p>
+        <button>Contact</button>
+      </div>
+      <div class="card">
+        <img src="Img/app.webp" alt="app">
+        <h1>App Development</h1>
+        <p>Modelen Apps</p>
+        <button>Contact</button>
+      </div>
+    </section>
+
+    <section class="section_break">
+      <h1>Contact me</h1>
+    </section>
+
+    <section id="contact">
+      <div id="contact_form">
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Last Name">
+        <input type="tel" placeholder="61xxxxxxx">
+        <input type="text" placeholder="Address">
+        <input type="text" placeholder="Message">
+        <div id="buttons">
+          <button type="reset">Reset</button>
+          <button type="submit">Submit</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      &copy; 2025 Mohamed Ali. All rights reserved.
+    </p>
+  </footer>
+</body>
+</html>
